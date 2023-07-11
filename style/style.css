@@ -107,7 +107,23 @@ body {
     ;
 }
 
-
+/* speciality area  */
+.speciality-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background:#2727270D;
+    width:75%;
+    margin:100px auto;
+    padding:70px 0;
+    border-radius: 5px;
+}
+.speciality{
+    color:#272727CC;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
 /* deal area style  */
 
 .deal-container {

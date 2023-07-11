@@ -51,3 +51,72 @@ body {
     height: 600px;
     width: 500px;
 }
+
+/* main area start from here  */
+
+/* featured area  */
+.featured-flowers{
+    padding:100px 0;
+}
+.featured-flowers .text-area{
+    text-align: center;
+    margin-bottom:100px;
+}
+.image-container a{
+   display: block;
+   margin-top: 30px;
+   text-align: center;
+   color:#272727;
+}
+.image-container{
+   display: flex;
+   justify-content: center;
+   gap:20px;
+}
+.image-container img{
+    width:200px;
+}
+.image-container .first-image img{
+    background-color: #A7216226;
+    height: 298px;
+    padding:100px 80px 0px;
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+}
+.image-container .second-image img{
+    background-color: #0597A026;
+    width:250px;
+    padding:105px 58px 45px;
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;;
+}
+.image-container .third-image img{
+    background-color: #477D1126;
+    padding:100px 80px 0;
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;;
+}
+
+/* deal area style  */
+
+.deal-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: #E554730D;
+    padding: 70px 300px;
+}
+
+span {
+    color: #E55473;
+}
+
+.deal-container .image-area img {
+    width: 200px;
+
+}
+
+.deal-container .text-area {
+    text-align: center;
+    margin-right: 90px;
+}

@@ -101,6 +101,7 @@ body {
 
 .deal-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-radius: 8px;
     background: #E554730D;
@@ -139,4 +140,86 @@ span {
 
 .instagram .image-area img {
     width: 250px;
+}
+
+/* new year section  */
+.new-year {
+    background-image: url('../asset/bg-newyear.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-size: 1070px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-year-container{
+    text-align: center;
+    color:white;
+    text-transform: capitalize;
+}
+.new-year-container .btn-primary{
+    background-color: transparent;
+    border: 1px solid #f3dcd6;
+}
+/* subscription section style  */
+
+.subscription {
+    background-image: url('../asset/Rectangle 9.png');
+    background-size: 1070px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription .title-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscription .email input {
+    background: #FFF;
+    border: none;
+    padding: 17px 300px 18px 26px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.subscription .email {
+    margin-top: 40px;
+}
+
+/* footer section style  */
+.footer-area {
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 70px 0;
+
+}
+
+.footer-description {
+    color: rgb(185, 174, 174);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.copyright {
+    color: rgb(185, 174, 174);
+    text-align: center;
+    color: #FFFFFF66;
+    font-size: 10px;
+    font-weight: 400;
 }

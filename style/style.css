@@ -57,7 +57,7 @@ body {
 
 /* featured area  */
 .featured-flowers {
-    padding: 100px 0;
+    padding: 60px 0 40px;
 }
 
 .featured-flowers .text-area {
@@ -106,6 +106,7 @@ body {
     border-top-right-radius: 50%;
     ;
 }
+
 
 /* deal area style  */
 

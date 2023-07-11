@@ -120,3 +120,23 @@ span {
     text-align: center;
     margin-right: 90px;
 }
+
+/* instagram styles  */
+.instagram {
+    margin: 100px 0;
+}
+
+.instagram .text-area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.instagram .image-area {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.instagram .image-area img {
+    width: 250px;
+}
